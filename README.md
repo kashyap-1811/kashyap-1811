@@ -80,5 +80,3 @@ I enjoy building modern, scalable applications, integrating intelligent solution
 [![GitHub](https://img.shields.io/badge/GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kashyap-1811)  
 
 ---
-
-⭐ *"The best way to predict the future is to invent it."* — Alan Kay  
