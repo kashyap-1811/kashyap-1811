@@ -48,7 +48,6 @@ I enjoy building modern, scalable applications, integrating intelligent solution
 - **Academics:** 10/10 SPI in Semester 4  
 - **Contests:** Rank 1 in DSA Contest at Technocrats Institute of Technology, Bhopal  
 - **Flipkart Grid 7.0:** Passed first two coding rounds  
-- **Adobe India Hackathon:** Passed Round 1  
 
 ---
 
