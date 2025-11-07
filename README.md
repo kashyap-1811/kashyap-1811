@@ -1,18 +1,21 @@
-<!-- Premium GitHub Profile README for Kashyap Rupareliya -->
+<!-- Premium GitHub Profile README for Kashyap B. Rupareliya -->
 
-<!-- Header -->
+<!-- STATIC NAME HEADER -->
+<h1 align="center">👋 Hi, I'm <span style="color:#4CAF50;">Kashyap B. Rupareliya</span></h1>
+
+<!-- ANIMATED SUBTEXT -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=4CAF50&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Kashyap+B.+Rupareliya!;Software+Developer+%7C+AI%2FML+Enthusiast;Full-Stack+Engineer+%7C+Problem+Solver;Welcome+to+my+GitHub+Profile!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Software+Developer;Full-Stack+Engineer;AI%2FML+Enthusiast;Problem+Solver;Lifelong+Learner" alt="Typing Animation" />
 </div>
 
 ---
 
 ### 🧑‍💻 About Me  
 
-🎓 **B.Tech in Computer Engineering (CPI: 9.67)** at *Dharmsinh Desai University*  
-💻 Passionate about **AI/ML**, **Data Structures**, and **Full-Stack Web Development**  
-⚙️ Experienced with **MERN**, **Spring Boot**, **.NET Core**, **Django**, and **Flutter**  
-🚀 Always learning, always building — pushing boundaries of what’s possible.  
+🎓 **B.Tech in Computer Engineering (CPI: 9.67)** — *Dharmsinh Desai University*  
+💻 Focused on **AI/ML**, **Data Structures**, and **Full-Stack Web Development**  
+🚀 Passionate about designing scalable systems & building production-ready apps  
+🤝 Currently mentoring juniors at **DDU Coding Community**  
 
 ---
 
@@ -86,20 +89,20 @@
 
 ---
 
-### 📈 GitHub Analytics  
+### 📊 GitHub Stats  
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=kashyap-1811&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=kashyap-1811&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=kashyap-1811&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=kashyap-1811&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kashyap-1811&layout=compact&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kashyap-1811&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
 
-### 🧠 Coding Platforms  
+### 🧠 LeetCode & Problem Solving  
 
 <p align="center">
   <a href="https://leetcode.com/u/kashyap1811/"><img src="https://leetcard.jacoblin.cool/kashyap1811?theme=dark&font=Fira%20Code&ext=contest" /></a>
@@ -107,7 +110,7 @@
 
 ---
 
-### 📊 Profile Activity  
+### 📈 Contribution Graph  
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=kashyap-1811&theme=tokyo-night&hide_border=true" />
@@ -122,5 +125,5 @@
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=kashyap-1811&label=Profile%20Views&color=blueviolet&style=flat-square" alt="profile views" />
+  <img src="https://komarev.com/ghpvc/?username=kashyap-1811&label=Profile%20Views&color=blueviolet&style=flat-square" alt="Profile Views" />
 </div>
