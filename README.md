@@ -1,4 +1,11 @@
+<!-- ======================================================== -->
 <!-- Premium GitHub Profile README for Kashyap B. Rupareliya -->
+<!-- ======================================================== -->
+
+<!-- HEADER BANNER -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D47A1,100:1E88E5&height=120&section=header&text=Kashyap%20B.%20Rupareliya%20⚡&fontSize=35&fontColor=ffffff&animation=fadeIn&fontAlignY=38" />
+</p>
 
 <!-- STATIC NAME HEADER -->
 <h1 align="center">👋 Hi, I'm <span style="color:#4CAF50;">Kashyap B. Rupareliya</span></h1>
@@ -89,15 +96,23 @@
 
 ---
 
+### 🏅 GitHub Trophies  
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=kashyap-1811&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10" />
+</p>
+
+---
+
 ### 📊 GitHub Stats  
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=kashyap-1811&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=kashyap-1811&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=kashyap-1811&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+  <img height="165" src="https://github-readme-streak-stats-eight.vercel.app/?user=kashyap-1811&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kashyap-1811&layout=compact&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=kashyap-1811&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
@@ -118,6 +133,24 @@
 
 ---
 
+### 📊 Dev Metrics  
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kashyap-1811&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kashyap-1811&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kashyap-1811&theme=tokyonight" />
+</p>
+
+---
+
+### 🐍 Contribution Snake  
+
+<p align="center">
+  <img src="https://github.com/kashyap-1811/kashyap-1811/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
+</p>
+
+---
+
 ### 💬 Quote  
 
 <p align="center"><b>“Code with logic, build with passion, and never stop improving.”</b></p>
@@ -127,3 +160,8 @@
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=kashyap-1811&label=Profile%20Views&color=blueviolet&style=flat-square" alt="Profile Views" />
 </div>
+
+<!-- FOOTER BANNER -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E88E5,100:0D47A1&height=100&section=footer" />
+</p>
