@@ -99,7 +99,9 @@
 ### 🏅 GitHub Trophies  
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kashyap-1811&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10" />
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.kohanx.com/?username=kashyap-1811&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10" alt="GitHub Trophies" />
+  </a>
 </p>
 
 ---
@@ -133,20 +135,10 @@
 
 ---
 
-### 📊 Dev Metrics  
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kashyap-1811&theme=tokyonight" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kashyap-1811&theme=tokyonight" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kashyap-1811&theme=tokyonight" />
-</p>
-
----
-
 ### 🐍 Contribution Snake  
 
 <p align="center">
-  <img src="https://github.com/kashyap-1811/kashyap-1811/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
 </p>
 
 ---
