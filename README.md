@@ -87,9 +87,9 @@
 
 ### 🏆 Achievements  
 
-🏅 **LeetCode:** 730+ problems | Top 12.23% | Global Rank: 66,506  
 🥈 **CodeQuest ICPC (DDU):** 2nd Rank  
 🎓 **Academics:** 10/10 SPI (Sem 4)  
+🏆 **NPTEL DSA:** Top 1%, Silver Elite
 🏆 **NPTEL DAA:** Top 2%, Silver Elite  
 🚀 **Flipkart Grid 7.0:** National Semi-Finalist  
 💡 **Mentor:** DDU Coding Community (2025–Present)  
