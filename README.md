@@ -7,10 +7,20 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D47A1,100:1E88E5&height=120&section=header&text=Kashyap%20B.%20Rupareliya%20⚡&fontSize=35&fontColor=ffffff&animation=fadeIn&fontAlignY=38" />
 </p>
 
-<!-- ANIMATED SUBTEXT -->
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Software+Developer+💻;Full-Stack+Engineer+🚀;AI%2FML+Enthusiast+🤖;Problem+Solver+🧩;Fast+Learner+⚡;Creative+Thinker+💡;LeetCode+Knight+♟️" alt="Typing Animation" />
-</div>
+---
+
+### 💭 What Drives Me
+
+```javascript
+const kashyap = {
+    code: ["JavaScript", "Python", "Java", "C++", "C#"],
+    mindset: ["Growth-oriented", "Solution-focused", "Collaborative"],
+    learningStyle: "Fast and deep — I don't just learn syntax, I understand concepts",
+    currentlyExploring: ["Advanced Algorithms", "System Design", "AI/ML"],
+    funFact: "I debug code faster than I debug my life decisions 😄",
+    motto: "Think logically, code creatively, learn constantly"
+};
+```
 
 ---
 
@@ -149,21 +159,6 @@ Hey there! 👋 I'm Kashyap, a **curious mind** who loves turning ideas into rea
 <p align="center">
   <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation"/>
 </p>
-
----
-
-### 💭 What Drives Me
-
-```javascript
-const kashyap = {
-    code: ["JavaScript", "Python", "Java", "C++", "C#"],
-    mindset: ["Growth-oriented", "Solution-focused", "Collaborative"],
-    learningStyle: "Fast and deep — I don't just learn syntax, I understand concepts",
-    currentlyExploring: ["Advanced Algorithms", "System Design", "AI/ML"],
-    funFact: "I debug code faster than I debug my life decisions 😄",
-    motto: "Think logically, code creatively, learn constantly"
-};
-```
 
 ---
 
