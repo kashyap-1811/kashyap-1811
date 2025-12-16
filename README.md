@@ -7,6 +7,11 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D47A1,100:1E88E5&height=120&section=header&text=Kashyap%20B.%20Rupareliya%20⚡&fontSize=35&fontColor=ffffff&animation=fadeIn&fontAlignY=38" />
 </p>
 
+<!-- ANIMATED SUBTEXT -->
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Software+Developer;Full-Stack+Engineer;AI%2FML+Enthusiast;Problem+Solver;Lifelong+Learner" alt="Typing Animation" />
+</div>
+
 ---
 
 ### 💭 What Drives Me
