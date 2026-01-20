@@ -18,7 +18,7 @@
 
 ```javascript
 const kashyap = {
-    code: ["JavaScript", "Python", "Java", "C++", "C#"],
+    code: ["Java", "C++", "JavaScript", "Python", "C#"],
     mindset: ["Growth-oriented", "Solution-focused", "Collaborative"],
     learningStyle: "Fast and deep — I don't just learn syntax, I understand concepts",
     currentlyExploring: ["Advanced Algorithms", "System Design", "AI/ML"],
@@ -137,16 +137,6 @@ Hey there! 👋 I'm Kashyap, a **curious mind** who loves turning ideas into rea
 
 <p align="center">
   <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=kashyap-1811&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
-</p>
-
----
-
-### 🏅 Trophy Cabinet
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.kohanx.com/?username=kashyap-1811&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10" alt="GitHub Trophies"/>
-  </a>
 </p>
 
 ---
