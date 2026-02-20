@@ -37,7 +37,8 @@ Hey there! 👋 I'm Kashyap, a **curious mind** who loves turning ideas into rea
 💡 I think in **algorithms**, dream in **code**, and wake up excited to learn something new  
 🎨 I believe great software is where **logic meets creativity**  
 🧗 Always climbing — whether it's **LeetCode** ladders or learning new tech stacks  
-🤝 Currently mentoring juniors at **DDU Coding Community** (because sharing knowledge is caring! 🌱)
+🤝 Currently mentoring juniors at **DDU Coding Community** (because sharing knowledge is caring! 🌱)  
+💯 **Whatever I do, I commit 100%** — from the first line of code to the last pixel of UI, I push for the best possible outcome
 
 > **Philosophy:** *"Learn fast, think deep, build smart, and never stop asking 'why?'"*
 
@@ -74,31 +75,106 @@ Hey there! 👋 I'm Kashyap, a **curious mind** who loves turning ideas into rea
 #### ⚙️ **Frameworks & Libraries**
 ![React](https://img.shields.io/badge/React-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-%236DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Cloud](https://img.shields.io/badge/Spring%20Cloud-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-%23000000.svg?style=for-the-badge&logo=express&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
 ![.NET Core](https://img.shields.io/badge/.NET-%23512BD4.svg?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=flutter&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-%23010101.svg?style=for-the-badge&logo=socketdotio&logoColor=white)
 
 #### 🗄️ **Databases & Developer Tools**
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23336791.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%2347A248.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-%23FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-%230046E2.svg?style=for-the-badge&logo=render&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-%23007ACC.svg?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
+#### 🏗️ **Architecture & Concepts**
+![Microservices](https://img.shields.io/badge/Microservices-%230D47A1.svg?style=for-the-badge&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20API-%23009688.svg?style=for-the-badge&logoColor=white)
+![System Design](https://img.shields.io/badge/System%20Design-%23FF6F00.svg?style=for-the-badge&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-%23000000.svg?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![OAuth 2.0](https://img.shields.io/badge/OAuth%202.0-%23EB5424.svg?style=for-the-badge&logoColor=white)
+![DSA](https://img.shields.io/badge/Data%20Structures%20%26%20Algorithms-%23673AB7.svg?style=for-the-badge&logoColor=white)
+
 ---
 
 ### 🚀 Projects That Make Me Proud
 
+> 🌟 **Artha** is my flagship project — a production-grade microservices application I've poured my heart into. Details below!
+
+---
+
+### ⭐ Featured Project — Artha
+
+<table>
+<tr>
+<td>
+
+#### 💰 [Artha — Microservices Budget & Expense Tracker](https://github.com/kashyap-1811/Artha)
+
+**Artha** *(Sanskrit for "wealth/finance")* is a **full-stack, production-grade microservices application** for company budget management and expense tracking. This is my most ambitious and complete project — built to enterprise standards with a focus on clean architecture, security, and scalability.
+
+**✨ Core Features:**
+- 🏢 **Multi-Company Management** — Create companies, invite members, manage roles (Owner / Member)
+- 📊 **Fiscal Budget Management** — Time-bound budgets with category allocations (Operational, Marketing, Payroll, Travel…)
+- ✅ **Approval Workflow** — Owners approve or reject expense submissions from members
+- 🔐 **JWT + Google OAuth 2.0** — Secure authentication with social login
+- 📈 **Real-Time Budget Tracking** — Visual progress bars, spend analytics, and over-budget alerts (> 90%)
+- 📅 **Expense History** — Monthly grouping for easy review and audit
+
+**🏗️ Architecture:**
+
+```
+React Frontend → API Gateway (JWT validation, routing)
+                     ├── user-service  (auth, companies)
+                     ├── budget        (fiscal budgets, allocations)
+                     └── expense       (submissions, approvals)
+                            ↕
+               Netflix Eureka Service Registry
+```
+
+</td>
+<td align="center" width="220">
+
+![Java](https://img.shields.io/badge/Java%2017-orange?style=flat-square&logo=openjdk&logoColor=white)
+<br/>
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot%203-green?style=flat-square&logo=springboot&logoColor=white)
+<br/>
+![Spring Cloud](https://img.shields.io/badge/Spring%20Cloud-green?style=flat-square&logo=spring&logoColor=white)
+<br/>
+![React](https://img.shields.io/badge/React%2019-61DAFB?style=flat-square&logo=react&logoColor=black)
+<br/>
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+<br/>
+![JWT](https://img.shields.io/badge/JWT-black?style=flat-square&logo=jsonwebtokens&logoColor=white)
+<br/>
+![OAuth](https://img.shields.io/badge/OAuth%202.0-EB5424?style=flat-square&logoColor=white)
+<br/>
+![Eureka](https://img.shields.io/badge/Netflix%20Eureka-E50914?style=flat-square&logo=netflix&logoColor=white)
+<br/>
+![Microservices](https://img.shields.io/badge/Microservices-0D47A1?style=flat-square&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+---
+
+### 📂 More Projects
+
 | Project | What's Cool About It? | Tech Stack |
 |---------|----------------------|------------|
-| 🎯 [**Auto-Stock**](https://github.com/kashyap-1811/StockTrading-App) | Real-time stock trading simulator with live price updates, wallet system & payment integration | ![React](https://img.shields.io/badge/React-blue) ![Node.js](https://img.shields.io/badge/Node.js-green) ![MongoDB](https://img.shields.io/badge/MongoDB-darkgreen) ![AWS](https://img.shields.io/badge/AWS-orange) |
-| 🏦 [**Bank System**](https://github.com/kashyap-1811/Sem-IV_JT) | Full-featured banking backend with secure transactions and account management | ![Java](https://img.shields.io/badge/Java-orange) ![SpringBoot](https://img.shields.io/badge/SpringBoot-green) ![MySQL](https://img.shields.io/badge/MySQL-blue) |
-| 🤖 [**AIHub**](https://github.com/kashyap-1811/AIHub) | One platform, multiple AI models — built with custom API key management | ![.NET](https://img.shields.io/badge/.NET-purple) ![React](https://img.shields.io/badge/React-blue) |
-| 🎫 [**Eventify**](https://github.com/kashyap-1811/Sem-IV_Django) | QR-based event registration system with automated email confirmations | ![Django](https://img.shields.io/badge/Django-darkgreen) ![Python](https://img.shields.io/badge/Python-blue) |
-| 🏨 [**Holiday Hotels**](https://github.com/kashyap-1811/AirBnb-Replica) | Airbnb clone with image uploads, user authentication & booking system | ![MongoDB](https://img.shields.io/badge/MongoDB-green) ![Express](https://img.shields.io/badge/Express-black) ![React](https://img.shields.io/badge/React-blue) |
-| 📦 [**StoreMore**](https://github.com/kashyap-1811/StoreMore) | Mobile inventory management made simple and beautiful | ![Flutter](https://img.shields.io/badge/Flutter-blue) ![Dart](https://img.shields.io/badge/Dart-cyan) |
+| 🎯 [**Auto-Stock**](https://github.com/kashyap-1811/StockTrading-App) | Real-time stock trading simulator with live price updates via Socket.IO, Razorpay wallet system & payment integration | ![React](https://img.shields.io/badge/React-blue) ![Node.js](https://img.shields.io/badge/Node.js-green) ![MongoDB](https://img.shields.io/badge/MongoDB-darkgreen) ![Socket.IO](https://img.shields.io/badge/Socket.IO-black) |
+| 🤖 [**AIHub**](https://github.com/kashyap-1811/AIHub) | One platform, multiple AI models (GPT, Gemini, Claude, DeepSeek) — built with custom API key management & context summarization | ![.NET](https://img.shields.io/badge/.NET-purple) ![React](https://img.shields.io/badge/React-blue) ![SQLite](https://img.shields.io/badge/SQLite-blue) |
+| 💼 [**JobsPortal**](https://github.com/kashyap-1811/JobsPortal) | Full-stack jobs listing and application portal with search and filtering | ![JavaScript](https://img.shields.io/badge/JavaScript-yellow) ![Node.js](https://img.shields.io/badge/Node.js-green) ![MongoDB](https://img.shields.io/badge/MongoDB-darkgreen) |
+| 🎫 [**Eventify**](https://github.com/kashyap-1811/Eventify) | QR-based event registration system with automated email confirmations | ![Django](https://img.shields.io/badge/Django-darkgreen) ![Python](https://img.shields.io/badge/Python-blue) |
+| 🏨 [**Holiday Hotels**](https://github.com/kashyap-1811/HolidayHotels) | Airbnb clone with image uploads, user authentication & booking system | ![MongoDB](https://img.shields.io/badge/MongoDB-green) ![Express](https://img.shields.io/badge/Express-black) ![Node.js](https://img.shields.io/badge/Node.js-green) ![EJS](https://img.shields.io/badge/EJS-yellow) |
+| 🏦 [**Bank System**](https://github.com/kashyap-1811/Bank-System) | Full-featured banking backend with secure transactions and account management | ![Java](https://img.shields.io/badge/Java-orange) ![SpringBoot](https://img.shields.io/badge/SpringBoot-green) ![MySQL](https://img.shields.io/badge/MySQL-blue) |
+| 🧠 [**DSA Interview Prep**](https://github.com/kashyap-1811/DSA-Interview-Preparation) | Comprehensive topic-wise DSA problem sets — Arrays, Trees, Graphs, DP, and more | ![C++](https://img.shields.io/badge/C++-blue) ![Java](https://img.shields.io/badge/Java-orange) |
 
 ---
 
@@ -137,14 +213,6 @@ Hey there! 👋 I'm Kashyap, a **curious mind** who loves turning ideas into rea
 
 <p align="center">
   <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=kashyap-1811&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
-</p>
-
----
-
-### 📈 Contribution Activity
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kashyap-1811&theme=tokyo-night&hide_border=true" alt="Contribution Graph"/>
 </p>
 
 ---
