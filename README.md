@@ -21,7 +21,7 @@ const kashyap = {
     code: ["Java", "C++", "JavaScript", "Python", "C#"],
     mindset: ["Growth-oriented", "Solution-focused", "Collaborative"],
     learningStyle: "Fast and deep — I don't just learn syntax, I understand concepts",
-    currentlyExploring: ["Advanced Algorithms", "System Design", "AI/ML"],
+    currentlyExploring: ["System Design", "Distributed Systems", "Kafka & Event Streaming", "Cloud Deployments"],
     funFact: "I debug code faster than I debug my life decisions 😄",
     motto: "Think logically, code creatively, learn constantly"
 };
@@ -81,15 +81,26 @@ Hey there! 👋 I'm Kashyap, a **curious mind** who loves turning ideas into rea
 ![.NET Core](https://img.shields.io/badge/.NET-%23512BD4.svg?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=flutter&logoColor=white)
 ![Socket.IO](https://img.shields.io/badge/Socket.IO-%23010101.svg?style=for-the-badge&logo=socketdotio&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSocket-%23000000.svg?style=for-the-badge&logo=websocket&logoColor=white)
+![Chart.js](https://img.shields.io/badge/Chart.js-%23FF6384.svg?style=for-the-badge&logo=chartdotjs&logoColor=white)
+![Passport.js](https://img.shields.io/badge/Passport.js-%2334E27A.svg?style=for-the-badge&logo=passport&logoColor=white)
 
-#### 🗄️ **Databases & Developer Tools**
+#### 🗄️ **Databases & Caching**
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23336791.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%2347A248.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-%23DC382D.svg?style=for-the-badge&logo=redis&logoColor=white)
+
+#### 📨 **Messaging & Streaming**
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-%23231F20.svg?style=for-the-badge&logo=apachekafka&logoColor=white)
+
+#### ☁️ **Cloud, DevOps & Developer Tools**
 ![Docker](https://img.shields.io/badge/Docker-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
+![DigitalOcean](https://img.shields.io/badge/DigitalOcean-%230080FF.svg?style=for-the-badge&logo=digitalocean&logoColor=white)
+![Render](https://img.shields.io/badge/Render-%230046E2.svg?style=for-the-badge&logo=render&logoColor=white)
+![Razorpay](https://img.shields.io/badge/Razorpay-%23072654.svg?style=for-the-badge&logo=razorpay&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-%23FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white)
-![Render](https://img.shields.io/badge/Render-%230046E2.svg?style=for-the-badge&logo=render&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-%23007ACC.svg?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
 #### 🏗️ **Architecture & Concepts**
@@ -98,6 +109,8 @@ Hey there! 👋 I'm Kashyap, a **curious mind** who loves turning ideas into rea
 ![System Design](https://img.shields.io/badge/System%20Design-%23FF6F00.svg?style=for-the-badge&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-%23000000.svg?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 ![OAuth 2.0](https://img.shields.io/badge/OAuth%202.0-%23EB5424.svg?style=for-the-badge&logoColor=white)
+![Event-Driven](https://img.shields.io/badge/Event--Driven%20Architecture-%23231F20.svg?style=for-the-badge&logoColor=white)
+![Real-Time](https://img.shields.io/badge/Real--Time%20Systems-%230D47A1.svg?style=for-the-badge&logoColor=white)
 ![DSA](https://img.shields.io/badge/Data%20Structures%20%26%20Algorithms-%23673AB7.svg?style=for-the-badge&logoColor=white)
 
 ---
@@ -116,7 +129,7 @@ Hey there! 👋 I'm Kashyap, a **curious mind** who loves turning ideas into rea
 
 #### 💰 [Artha — Microservices Budget & Expense Tracker](https://github.com/kashyap-1811/Artha)
 
-**Artha** *(Sanskrit for "wealth/finance")* is a **full-stack, production-grade microservices application** for company budget management and expense tracking. This is my most ambitious and complete project — built to enterprise standards with a focus on clean architecture, security, and scalability.
+**Artha** *(Sanskrit for "wealth/finance")* is a **full-stack, production-grade microservices application** for company budget management and expense tracking. This is my most ambitious and complete project — built to enterprise standards with a focus on clean architecture, security, scalability, and real-world deployment on **DigitalOcean VMs**.
 
 **✨ Core Features:**
 - 🏢 **Multi-Company Management** — Create companies, invite members, manage roles (Owner / Member)
@@ -125,6 +138,8 @@ Hey there! 👋 I'm Kashyap, a **curious mind** who loves turning ideas into rea
 - 🔐 **JWT + Google OAuth 2.0** — Secure authentication with social login
 - 📈 **Real-Time Budget Tracking** — Visual progress bars, spend analytics, and over-budget alerts (> 90%)
 - 📅 **Expense History** — Monthly grouping for easy review and audit
+- ⚡ **Async Event Streaming** — Apache Kafka for decoupled inter-service communication and audit events
+- 🚀 **High-Performance Caching** — Redis for session management, token blacklisting, and response caching
 
 **🏗️ Architecture:**
 
@@ -133,8 +148,14 @@ React Frontend → API Gateway (JWT validation, routing)
                      ├── user-service  (auth, companies)
                      ├── budget        (fiscal budgets, allocations)
                      └── expense       (submissions, approvals)
-                            ↕
-               Netflix Eureka Service Registry
+                            ↕                    ↕
+               Netflix Eureka            Apache Kafka
+               Service Registry         (async events)
+                                              ↕
+                                           Redis
+                                         (caching)
+
+Deployed on DigitalOcean Virtual Machines (Ubuntu droplets)
 ```
 
 </td>
@@ -150,11 +171,17 @@ React Frontend → API Gateway (JWT validation, routing)
 <br/>
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 <br/>
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+<br/>
+![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+<br/>
 ![JWT](https://img.shields.io/badge/JWT-black?style=flat-square&logo=jsonwebtokens&logoColor=white)
 <br/>
 ![OAuth](https://img.shields.io/badge/OAuth%202.0-EB5424?style=flat-square&logoColor=white)
 <br/>
 ![Eureka](https://img.shields.io/badge/Netflix%20Eureka-E50914?style=flat-square&logo=netflix&logoColor=white)
+<br/>
+![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=flat-square&logo=digitalocean&logoColor=white)
 <br/>
 ![Microservices](https://img.shields.io/badge/Microservices-0D47A1?style=flat-square&logoColor=white)
 
@@ -168,7 +195,7 @@ React Frontend → API Gateway (JWT validation, routing)
 
 | Project | What's Cool About It? | Tech Stack |
 |---------|----------------------|------------|
-| 🎯 [**Auto-Stock**](https://github.com/kashyap-1811/StockTrading-App) | Real-time stock trading simulator with live price updates via Socket.IO, Razorpay wallet system & payment integration | ![React](https://img.shields.io/badge/React-blue) ![Node.js](https://img.shields.io/badge/Node.js-green) ![MongoDB](https://img.shields.io/badge/MongoDB-darkgreen) ![Socket.IO](https://img.shields.io/badge/Socket.IO-black) |
+| 🎯 [**Auto-Stock**](https://github.com/kashyap-1811/StockTrading-App) | Real-time stock trading simulator with live price streaming via **WebSocket + Socket.IO**, interactive 15-day charts (Chart.js), Razorpay wallet & payment integration, Google OAuth, and CSV fund-history export | ![React](https://img.shields.io/badge/React-blue) ![Node.js](https://img.shields.io/badge/Node.js-green) ![MongoDB](https://img.shields.io/badge/MongoDB-darkgreen) ![Socket.IO](https://img.shields.io/badge/Socket.IO-black) ![Razorpay](https://img.shields.io/badge/Razorpay-072654) ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384) |
 | 🤖 [**AIHub**](https://github.com/kashyap-1811/AIHub) | One platform, multiple AI models (GPT, Gemini, Claude, DeepSeek) — built with custom API key management & context summarization | ![.NET](https://img.shields.io/badge/.NET-purple) ![React](https://img.shields.io/badge/React-blue) ![SQLite](https://img.shields.io/badge/SQLite-blue) |
 | 💼 [**JobsPortal**](https://github.com/kashyap-1811/JobsPortal) | Full-stack jobs listing and application portal with search and filtering | ![JavaScript](https://img.shields.io/badge/JavaScript-yellow) ![Node.js](https://img.shields.io/badge/Node.js-green) ![MongoDB](https://img.shields.io/badge/MongoDB-darkgreen) |
 | 🎫 [**Eventify**](https://github.com/kashyap-1811/Eventify) | QR-based event registration system with automated email confirmations | ![Django](https://img.shields.io/badge/Django-darkgreen) ![Python](https://img.shields.io/badge/Python-blue) |
@@ -227,8 +254,9 @@ React Frontend → API Gateway (JWT validation, routing)
 
 ### 🎯 Current Focus
 
-- 🔭 Building production-ready applications that solve real problems
-- 🌱 Deep-diving into **System Design** and **Advanced DSA**
+- 🔭 Building and deploying production-ready applications on **DigitalOcean VMs**
+- ⚡ Deep-diving into **distributed systems** — Kafka event streaming, Redis caching, and microservices
+- 🌱 Strengthening **System Design** and **Advanced DSA** fundamentals
 - 🧪 Experimenting with **AI/ML** models and integrations
 - 📚 Mentoring and sharing knowledge with the community
 - 💪 Maintaining my **LeetCode Knight** status (the grind never stops!)
