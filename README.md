@@ -247,7 +247,7 @@ Deployed on DigitalOcean Virtual Machines (Ubuntu droplets)
 ### 📈 Contribution Graph
 
 <p align="center">
-  <img src="https://ghchart.rshah.org/58A6FF/kashyap-1811" alt="GitHub Contribution Graph"/>
+  <img src="https://ghchart.rshah.org/216e39/kashyap-1811" alt="GitHub Contribution Graph"/>
 </p>
 
 ---
