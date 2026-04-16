@@ -246,7 +246,7 @@ Deployed on DigitalOcean Virtual Machines (Ubuntu droplets)
 
 ### 📈 Contribution Graph
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=kashyap-1811&bg_color=0d1117&color=39d353&line=39d353&point=79ff97&area=true&area_color=39d353&hide_border=true" alt="GitHub Contribution Graph" width="100%"/>
+<img src="contribution-calendar.svg" alt="GitHub Contribution Calendar" width="100%"/>
 
 ---
 

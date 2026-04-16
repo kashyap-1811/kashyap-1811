@@ -1,0 +1,24 @@
+name: Generate Contribution Calendar
+
+on:
+  schedule:
+    - cron: '0 12 * * *'   # daily at noon UTC
+  workflow_dispatch:         # allow manual trigger from Actions tab
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: contribution-calendar.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: kashyap-1811
+          template: classic
+          base: ""
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
+          config_output: svg
+          config_theme: dark
