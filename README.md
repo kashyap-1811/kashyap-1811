@@ -246,9 +246,7 @@ Deployed on DigitalOcean Virtual Machines (Ubuntu droplets)
 
 ### 📈 Contribution Graph
 
-<p align="center">
-  <img src="https://ghchart.rshah.org/216e39/kashyap-1811" alt="GitHub Contribution Graph"/>
-</p>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=kashyap-1811&bg_color=0d1117&color=39d353&line=39d353&point=79ff97&area=true&area_color=39d353&hide_border=true" alt="GitHub Contribution Graph" width="100%"/>
 
 ---
 
