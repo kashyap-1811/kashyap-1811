@@ -244,10 +244,10 @@ Deployed on DigitalOcean Virtual Machines (Ubuntu droplets)
 
 ---
 
-### 🐍 Watch My Contributions Get Eaten!
+### 📈 Contribution Graph
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation"/>
+  <img src="https://ghchart.rshah.org/58A6FF/kashyap-1811" alt="GitHub Contribution Graph"/>
 </p>
 
 ---
