@@ -249,10 +249,10 @@ Deployed on DigitalOcean Virtual Machines (Ubuntu droplets)
 
 ---
 
-### 📈 Contribution Heatmap
+### 📈 Month-wise Contribution Distribution
 
 <p align="center">
-  <img src="https://ghchart.rshah.org/1F6F43/kashyap-1811" alt="Contribution Heatmap"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kashyap-1811&bg_color=0d1117&color=8b949e&line=1F6F43&point=1F6F43&area=true&hide_border=true&custom_title=Month-wise%20Contribution%20Distribution" alt="Month-wise Contribution Distribution"/>
 </p>
 
 ---
