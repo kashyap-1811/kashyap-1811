@@ -252,7 +252,7 @@ Deployed on DigitalOcean Virtual Machines (Ubuntu droplets)
 ### 📈 Contribution Heatmap
 
 <p align="center">
-  <img src="https://ghchart.rshah.org/2DB55D/kashyap-1811" alt="Contribution Heatmap"/>
+  <img src="https://ghchart.rshah.org/1F6F43/kashyap-1811" alt="Contribution Heatmap"/>
 </p>
 
 ---
