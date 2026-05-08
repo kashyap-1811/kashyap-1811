@@ -158,6 +158,11 @@ React Frontend → API Gateway (JWT validation, routing)
 Deployed on DigitalOcean Virtual Machines (Ubuntu droplets)
 ```
 
+**📌 Why Artha Stands Out:**
+- 🧩 **End-to-End Ownership** — Designed and developed full flow from authentication to budget approval workflows
+- 🛡️ **Security First** — JWT auth, Google OAuth 2.0, and token/session control with Redis-backed flows
+- 🌍 **Production Deployment Experience** — Deployed microservices stack on DigitalOcean VMs with service discovery and API gateway routing
+
 </td>
 <td align="center" width="220">
 
@@ -244,10 +249,10 @@ Deployed on DigitalOcean Virtual Machines (Ubuntu droplets)
 
 ---
 
-### 🐍 Watch My Contributions Get Eaten!
+### 📈 Contribution Heatmap
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kashyap-1811&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Heatmap"/>
 </p>
 
 ---
