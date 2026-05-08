@@ -252,7 +252,7 @@ Deployed on DigitalOcean Virtual Machines (Ubuntu droplets)
 ### 📈 Contribution Heatmap
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kashyap-1811&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Heatmap"/>
+  <img src="https://ghchart.rshah.org/58A6FF/kashyap-1811" alt="Contribution Heatmap"/>
 </p>
 
 ---
